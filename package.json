@@ -1,0 +1,30 @@
+{
+  "name": "projeto-2025",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "ts-node ./script/database.ts",
+    "start": "ts-node ./script/botwhats.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@datastax/astra-db-ts": "^1.1.0",
+    "@wppconnect-team/wppconnect": "^1.37.3",
+    "ai": "^4.3.19",
+    "dotenv": "^16.6.1",
+    "langchain": "^0.1.37",
+    "openai": "^5.10.2",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^19.11.1",
+    "venom-bot": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
